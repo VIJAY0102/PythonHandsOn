@@ -1,0 +1,11 @@
+class Hello:
+	
+	def __init__(self):
+		self.ring = 'Hello World'
+	
+	def fun(self):
+		return self.ring
+
+
+hello = Hello()
+print(hello.fun())
